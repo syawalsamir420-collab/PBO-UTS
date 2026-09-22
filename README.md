@@ -50,10 +50,10 @@ Program ini memiliki fitur CRUD (Create, Read, Update, Delete) lengkap serta fit
 
 | Nama File | Jenis Class | Tipe Inheritance | Deklarasi Variabel Utama | Method Utama | Deskripsi & Peran |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `LayananInternet.java` | Superclass (Parent) | - (Awal) | `idPaket`, `namaLayanan`, `harga`, `stok` | `tampilkanDetail()`, *Getter/Setter* | Menjadi fondasi/dasar kelas untuk semua jenis layanan internet. |
-| `PaketData.java` | Subclass (Child) | Single Inheritance | `kuotaGB` | `tampilkanDetail()` *(Override)* | Turunan dari `LayananInternet` khusus paket data kuota. |
-| `PaketUnlimited.java` | Subclass (Grandchild) | Multilevel Inheritance | `batasFUP`, `kecepatanBypass` | `tampilkanDetail()` *(Override)* | Turunan dari `PaketData` khusus paket kuota tanpa batas. |
-| `ManajerGudang.java` | Utility Class | - | - | `cetakHeader()` *(Overloading)*, `cetakSummary()` | Menyediakan fungsi pencetakan header dan analisis valuasi stok. |
-| `Main.java` | Driver Class | - | `inventarisGudang` *(ArrayList)* | `main()`, `cariPaketById()` | Eksekusi utama program yang menjalankan menu interaktif CRUD. |
+| LayananInternet.java | Superclass (Parent) | - (Awal) | idPaket, namaLayanan, harga, stok | tampilkanDetail(), *Getter/Setter* | Menjadi fondasi/dasar kelas untuk semua jenis layanan internet. |
+| PaketData.java | Subclass (Child) | Single Inheritance | kuotaGB | tampilkanDetail() *(Override)* | Turunan dari LayananInternet khusus paket data kuota. |
+| PaketUnlimited.java | Subclass (Grandchild) | Multilevel Inheritance | batasFUP, kecepatanBypass | tampilkanDetail() *(Override)* | Turunan dari PaketData khusus paket kuota tanpa batas. |
+| ManajerGudang.java | Utility Class | - | - | cetakHeader() *(Overloading)*, cetakSummary() | Menyediakan fungsi pencetakan header dan analisis valuasi stok. |
+| Main.java | Driver Class | - | inventarisGudang *(ArrayList)* | main(), `cariPaketById() | Eksekusi utama program yang menjalankan menu interaktif CRUD. |
 
 
