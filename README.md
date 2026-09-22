@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Nama** | Muhammad Syawal Samir |
+| **** | Muhammad Syawal Samir |
 | **NIM** | 2509116079 |
 | **Kelas** | Sistem Informasi 25'B |
 | **Tema** | Gudang Internet  |
@@ -46,6 +46,13 @@ Program ini memiliki fitur CRUD (Create, Read, Update, Delete) lengkap serta fit
 
   - Kode dipisah menjadi beberapa modul terstruktur dalam package com.mycompany.utspbo1 agar mudah dipelihara (maintainable).
 
-3. Struktur File & Perannya
+<h1>3. Struktur File & Perannya</h1>
+
+| | |
+|---|---
+| **Nama File** |  **Jenis Class** |  **Jenis Class** | 
+| **Kelas** | Sistem Informasi 25'B |
+| **Tema** | Gudang Internet  |
+| **UTS PBO** | 1 |
 
 
