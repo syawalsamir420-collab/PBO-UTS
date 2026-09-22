@@ -56,5 +56,12 @@ Program ini memiliki fitur CRUD (Create, Read, Update, Delete) lengkap serta fit
 | ManajerGudang.java | Utility Class | - | - | cetakHeader() *(Overloading)*, cetakSummary() | Menyediakan fungsi pencetakan header dan analisis valuasi stok. |
 | Main.java | Driver Class | - | inventarisGudang *(ArrayList)* | main(), `cariPaketById() | Eksekusi utama program yang menjalankan menu interaktif CRUD. |
 
-Tampilan output di atas menunjukkan antarmuka konsol dari System Inventaris Gudang Internet saat pertama kali dijalankan.   Pada bagian atas, program menampilkan header yang diproduksi secara dinamis menggunakan konsep Method Overloading dari kelas ManajerGudang, yang menyajikan informasi identitas petugas login (Admin Gudang) beserta tanggal/sesi aktif yang diambil secara real-time (2026-09-22).   Di bawah bagian header, sistem menyajikan Menu Utama berbasis teks yang menyediakan navigasi operasional interaktif lengkap untuk pengelolaan gudang. Menu ini mencakup seluruh fungsionalitas CRUD (Create, Read, Update, Delete) serta fitur analisis inventaris:   Menu 1 (Read): Menampilkan seluruh daftar stok paket yang tersimpan di dalam memori gudang.Menu 2 (Create): Menambahkan data paket internet baru (baik PaketData maupun PaketUnlimited).Menu 3 (Update): Memperbarui informasi harga atau stok dari paket yang sudah ada.Menu 4 (Delete): Menghapus data paket tertentu dari inventaris berdasarkan ID.Menu 5 (Info/Analytics): Mencetak ringkasan valuasi dan total stok inventaris gudang secara otomatis.Menu 0 (Exit): Menghentikan dan keluar dari program.
+Tampilan output di atas menunjukkan antarmuka konsol dari System Inventaris Gudang Internet saat pertama kali dijalankan. Pada bagian atas, program menampilkan header yang diproduksi secara dinamis menggunakan konsep Method Overloading dari kelas ManajerGudang, yang menyajikan informasi identitas petugas login (Admin Gudang) beserta tanggal/sesi aktif yang diambil secara real-time (2026-09-22).   Di bawah bagian header, sistem menyajikan Menu Utama berbasis teks yang menyediakan navigasi operasional interaktif lengkap untuk pengelolaan gudang. Menu ini mencakup seluruh fungsionalitas CRUD (Create, Read, Update, Delete) serta fitur analisis inventaris:  
+
+- Menu 1 (Read): Menampilkan seluruh daftar stok paket yang tersimpan di dalam memori gudang.Menu 
+- 2 (Create): Menambahkan data paket internet baru (baik PaketData maupun PaketUnlimited).Menu
+- 3 (Update): Memperbarui informasi harga atau stok dari paket yang sudah ada.Menu
+- 4 (Delete): Menghapus data paket tertentu dari inventaris berdasarkan ID.Menu
+- 5 (Info/Analytics): Mencetak ringkasan valuasi dan total stok inventaris gudang secara otomatis.Menu
+- 0 (Exit): Menghentikan dan keluar dari program.
 
