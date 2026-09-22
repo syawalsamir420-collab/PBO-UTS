@@ -53,8 +53,12 @@ Program ini memiliki fitur CRUD (Create, Read, Update, Delete) lengkap serta fit
 | LayananInternet.java | Superclass (Parent) | - (Awal) | idPaket, namaLayanan, harga, stok | tampilkanDetail(), *Getter/Setter* | Menjadi fondasi/dasar kelas untuk semua jenis layanan internet. |
 | PaketData.java | Subclass (Child) | Single Inheritance | kuotaGB | tampilkanDetail() *(Override)* | Turunan dari LayananInternet khusus paket data kuota. |
 | PaketUnlimited.java | Subclass (Grandchild) | Multilevel Inheritance | batasFUP, kecepatanBypass | tampilkanDetail() *(Override)* | Turunan dari PaketData khusus paket kuota tanpa batas. |
-| ManajerGudang.java | Utility Class | - | - | cetakHeader() *(Overloading)*, cetakSummary() | Menyediakan fungsi pencetakan header dan analisis valuasi stok. |
+| ManajerGudang.java | Utility Class | - | - | cetakHeader() *(Overloading)*, cetakSummary() | Menyediakan fungsi pencetakan header dan analisis valuasi stok. |<img width="700" height="398" alt="Cuplikan layar 2026-09-22 183722" src="https://github.com/user-attachments/assets/95949834-8528-4efc-a520-195bef914ffc" />
+
 | Main.java | Driver Class | - | inventarisGudang *(ArrayList)* | main(), `cariPaketById() | Eksekusi utama program yang menjalankan menu interaktif CRUD. |
+
+
+![Uploading Cuplikan layar 2026-09-22 183722.png…]()
 
 Tampilan output di atas menunjukkan antarmuka konsol dari System Inventaris Gudang Internet saat pertama kali dijalankan. Pada bagian atas, program menampilkan header yang diproduksi secara dinamis menggunakan konsep Method Overloading dari kelas ManajerGudang, yang menyajikan informasi identitas petugas login (Admin Gudang) beserta tanggal/sesi aktif yang diambil secara real-time (2026-09-22).   Di bawah bagian header, sistem menyajikan Menu Utama berbasis teks yang menyediakan navigasi operasional interaktif lengkap untuk pengelolaan gudang. Menu ini mencakup seluruh fungsionalitas CRUD (Create, Read, Update, Delete) serta fitur analisis inventaris:  
 
@@ -64,4 +68,6 @@ Tampilan output di atas menunjukkan antarmuka konsol dari System Inventaris Guda
 - Menu 4 (Delete): Menghapus data paket tertentu dari inventaris berdasarkan ID.Menu
 - Menu 5 (Info/Analytics): Mencetak ringkasan valuasi dan total stok inventaris gudang secara otomatis.Menu
 - Menu 0 (Exit): Menghentikan dan keluar dari program.
+
+
 
