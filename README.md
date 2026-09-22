@@ -68,5 +68,8 @@ Tampilan output di atas menunjukkan antarmuka konsol dari System Inventaris Guda
 - Menu 5 (Info/Analytics): Mencetak ringkasan valuasi dan total stok inventaris gudang secara otomatis.Menu
 - Menu 0 (Exit): Menghentikan dan keluar dari program.
 
+<img width="563" height="732" alt="Cuplikan layar 2026-09-22 184350" src="https://github.com/user-attachments/assets/30e0399e-80d8-439a-945a-f73cb3362e0c" />
 
+Tampilan output menunjukkan eksekusi operasi Read (Menu 1) untuk menampilkan seluruh daftar stok paket internet yang tersimpan di dalam memori gudang. Pada proses ini, program memanfaatkan penerapan konsep Polymorphism (Method Overriding) melalui pemanggilan method tampilkanDetail() secara dinamis untuk setiap objek di dalam ArrayList.
 
+Item Gudang #1 (PKT01) dan #2 (PKT02) dirender berdasarkan struktur kelas PaketData, di mana sistem mengevaluasi jumlah kuota menggunakan percabangan if-else untuk menetapkan kategori layanan, yakni Paket Reguler / Normal (kuota < 50 GB) atau Paket Jumbo / High Usage (kuota >= 50 GB). Sementara itu, Item Gudang #3 (PKT03) diproses dari kelas turunan PaketUnlimited, yang secara otomatis menampilkan atribut tambahan spesifik seperti Batas FUP, Kecepatan, dan Fitur Khusus. Selain pencetakan spesifikasi paket, sistem secara otomatis mengevaluasi kondisi batas stok fisik untuk menampilkan status indikator [AMAN] apabila stok mencapai 10 Pcs atau lebih, serta peringatan [WARNING] Stok Menipis! Segera Restock. jika stok berada di bawah 10 Pcs.
