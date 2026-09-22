@@ -96,4 +96,4 @@ Tampilan output menunjukkan eksekusi opsi Keluar Aplikasi (Menu 0) untuk menghen
 
 Ucapan Terima Kasih
 
-Terima kasih kepada Dosen Pengampu mata kuliah **Pemrograman Berbasis Objek (PBO)** atas bimbingan dan materi yang telah diberikan selama proses perkuliahan. Terima kasih juga kepada rekan-rekan mahasiswa yang telah memberikan masukan serta dukungan dalam penyelesaian proyek *System Gudang Internet* ini.
+Terima kasih kepada Dosen Pengampu mata kuliah **Pemrograman Berbasis Objek (PBO)** atas bimbingan dan materi yang telah diberikan selama proses perkuliahan. *System Gudang Internet* 
