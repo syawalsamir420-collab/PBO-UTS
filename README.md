@@ -50,7 +50,7 @@ Program ini memiliki fitur CRUD (Create, Read, Update, Delete) lengkap serta fit
 
 | | |
 |---|---
-| **Nama File** |  **Jenis Class** |  **Jenis Class** | 
+| **Nama File** |  **Jenis Class**  |  **Tipe Inheritance**  |  **Deklarasi Variabel Utama / Atribut**  |  **Method Utama  |  **Deskripsi & Peran  | 
 | **Kelas** | Sistem Informasi 25'B |
 | **Tema** | Gudang Internet  |
 | **UTS PBO** | 1 |
