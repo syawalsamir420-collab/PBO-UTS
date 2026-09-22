@@ -48,7 +48,8 @@ Program ini memiliki fitur CRUD (Create, Read, Update, Delete) lengkap serta fit
 
 <h1>3. Struktur File & Perannya</h1>
 
-| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+
 |---------------|-------------------|------------------------|------------------------------------------|------------------|-----------------------|
 | **Nama File** |  **Jenis Class**  |  **Tipe Inheritance**  |  **Deklarasi Variabel Utama / Atribut**  |  **Method Utama  |  **Deskripsi & Peran  | 
 | **Kelas** | Sistem Informasi 25'B |
