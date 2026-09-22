@@ -36,7 +36,7 @@ Program ini memiliki fitur CRUD (Create, Read, Update, Delete) lengkap serta fit
 
   - Di dalam ManajerGudang.java, terdapat pemanggilan method cetakHeader() dengan jumlah/tipe parameter berbeda.
 
-  **C. Encapsulation (Pembungkusan Data)**
+**C. Encapsulation (Pembungkusan Data)**
 
   - Penggunaan akses atribut protected dan private untuk melindungi variabel agar tidak diubah sembarangan dari luar kelas.
 
@@ -45,4 +45,7 @@ Program ini memiliki fitur CRUD (Create, Read, Update, Delete) lengkap serta fit
 **D. Abstraksi & Modul**
 
   - Kode dipisah menjadi beberapa modul terstruktur dalam package com.mycompany.utspbo1 agar mudah dipelihara (maintainable).
+
+3. Struktur File & Perannya
+
 
